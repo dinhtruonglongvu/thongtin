@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Để lại thông tin của bạn tại đây</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <style>
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(background2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .form-container {
+      max-width: 450px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ffffff;
+      border-radius: 5px;
+      background-color: #ffffff;
+    }
+    .form-container h2{
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    .form-container h3{
+        text-align: center;
+    }
+    .form-container h5{
+        text-align: center;
+    }
+
+    .form-container label {
+      font-weight: bold;
+    }
+    .form-container .form-group {
+      margin-bottom: 20px;
+    }
+    .form-container .form-group:last-child {
+      margin-bottom: 0;
+    }
+    .form-container .btn {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="form-container">
+          <center>  <img src="logo.png" alt="" srcset="" width="50%" height="50%"> </center>
+          <h2>Nhóm tín hiệu miễn phí</h2>
+          <h3>Dành cho người mới</h3>
+        <h5>
+            💯 9-12 tín hiệu mỗi ngày. <br>
+            💯 Hỗ trợ kiến ​​thức miễn phí. <br>
+            💯 Hỗ trợ 24/7 cho người mới. <br>
+            💯 Bạn luôn được ưu tiên. <br>
+        </h5>
+          <form>
+            <div class="form-group">
+              <label for="name">Tên:</label>
+              <input type="text" id="name" class="form-control" placeholder="Nhập tên của bạn">
+            </div>
+            <div class="form-group">
+              <label for="phone">Số điện thoại:</label>
+              <input type="tel" id="phone" class="form-control" placeholder="Nhập số điện thoại của bạn">
+            </div>
+            <div class="form-group">
+              <label for="telegram">Zalo:</label>
+              <input type="text" id="telegram" class="form-control" placeholder="Nhập Zalo của bạn">
+            </div>
+            <button type="submit" class="btn btn-primary">Gửi thông tin</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
